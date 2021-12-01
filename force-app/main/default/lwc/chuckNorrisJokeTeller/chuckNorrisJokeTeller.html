@@ -1,0 +1,14 @@
+<template>
+
+    <blockquote>
+        <p class="quotation">
+           {_joke}
+        </p>
+        <footer>— chucknorris.io</footer>
+    </blockquote>
+    <div class="slds-size_full slds-align_absolute-center">
+        <lightning-button-icon onclick={handlePreviousClick} variant="bare" icon-name="utility:chevronleft" size="large" class="slds-m-right_xx-small"></lightning-button-icon>
+        <lightning-button-icon onclick={handleNextClick} variant="bare" icon-name="utility:chevronright" size="large"></lightning-button-icon>
+    </div>
+
+</template>
